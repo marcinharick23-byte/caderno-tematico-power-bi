@@ -490,3 +490,26 @@ Um relatório eficiente depende de uma sequência de etapas:
 
 O estudo também mostrou a importância de compreender a relação entre **Power Query, modelagem e DAX**, pois cada recurso possui uma função diferente dentro do processo de análise.
 
+## 📖 Glossário
+
+| Conceito                             | Definição                                                                                                                 |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **Power BI**                         | Plataforma da Microsoft utilizada para conectar, transformar, analisar e visualizar dados.                                |
+| **Power BI Desktop**                 | Aplicativo utilizado para desenvolver modelos de dados e criar relatórios.                                                |
+| **Power BI Service**                 | Serviço online utilizado para publicar, compartilhar e colaborar com relatórios e dashboards.                             |
+| **Power Query**                      | Ferramenta utilizada para conectar, preparar e transformar dados antes da análise.                                        |
+| **ETL**                              | Processo de Extração, Transformação e Carregamento de dados.                                                              |
+| **Modelo de Dados**                  | Estrutura formada pelas tabelas e pelos relacionamentos utilizados na análise.                                            |
+| **Relacionamento**                   | Ligação estabelecida entre tabelas por meio de campos relacionados, permitindo que os dados sejam analisados em conjunto. |
+| **Esquema em Estrela (Star Schema)** | Modelo de dados que organiza uma tabela fato central relacionada a tabelas dimensão.                                      |
+| **Tabela Fato**                      | Tabela que registra eventos ou transações, geralmente contendo valores numéricos e chaves relacionadas às dimensões.      |
+| **Tabela Dimensão**                  | Tabela que contém informações utilizadas para descrever, filtrar e agrupar os dados das tabelas fato.                     |
+| **DAX**                              | Linguagem de expressões utilizada para criar cálculos em modelos de dados do Power BI.                                    |
+| **Medida**                           | Cálculo avaliado de acordo com o contexto da análise e que pode mudar conforme os filtros aplicados.                      |
+| **Coluna Calculada**                 | Coluna criada por meio de uma expressão calculada, com valores avaliados linha a linha.                                   |
+| **Visualização**                     | Representação visual dos dados, como gráficos, tabelas, cartões e outros elementos.                                       |
+| **Relatório**                        | Conjunto de páginas com visualizações utilizadas para analisar e apresentar dados.                                        |
+| **Dashboard**                        | Painel visual utilizado para acompanhar informações e indicadores de forma resumida.                                      |
+| **Filtro**                           | Recurso que permite limitar os dados apresentados em uma visualização ou relatório.                                       |
+| **Segmentação de Dados (Slicer)**    | Controle visual que permite ao usuário selecionar valores para filtrar os dados de um relatório.                          |
+
