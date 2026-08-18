@@ -586,3 +586,40 @@ Os prompts podem ser adaptados conforme o objetivo do estudo:
 
 A principal aprendizagem obtida durante o projeto foi que um bom prompt não precisa apenas perguntar **"o que é?"**. É possível definir o nível de conhecimento, o contexto, o formato da resposta, solicitar exemplos e estabelecer quais fontes devem ser utilizadas.
 
+## 🎓 Conclusão e Aprendizados
+
+A construção deste caderno temático permitiu organizar os conhecimentos iniciais sobre Power BI de forma progressiva, partindo dos conceitos mais básicos até a compreensão do fluxo de trabalho completo.
+
+Durante o estudo, compreendi que a construção de um relatório no Power BI envolve diferentes etapas e ferramentas, e que cada uma possui uma função específica.
+
+Entre os principais aprendizados estão:
+
+- O **Power BI Desktop** funciona como o principal ambiente para desenvolvimento dos modelos e relatórios;
+- O **Power Query** é utilizado para conectar, limpar e transformar os dados;
+- O **modelo de dados** organiza as tabelas e seus relacionamentos;
+- O **esquema em estrela** ajuda a estruturar modelos utilizando tabelas fato e dimensão;
+- O **DAX** permite criar cálculos para analisar os dados;
+- **Medidas e colunas calculadas** possuem finalidades diferentes e devem ser utilizadas de acordo com a necessidade da análise;
+- A qualidade da preparação e da modelagem dos dados influencia diretamente a qualidade das análises e visualizações.
+
+### 🤖 Aprendizado sobre Inteligência Artificial
+
+Além dos conhecimentos técnicos sobre Power BI, este projeto também permitiu desenvolver uma forma mais consciente de utilizar a Inteligência Artificial durante os estudos.
+
+O uso do NotebookLM mostrou que a qualidade da resposta depende também da qualidade da pergunta. Ao especificar o contexto, o nível de conhecimento, o formato desejado e as fontes que deveriam ser consideradas, foi possível obter respostas mais adequadas aos objetivos de aprendizagem.
+
+Também compreendi a importância de não aceitar automaticamente uma resposta gerada por IA. A consulta às fontes, a comparação das informações e a análise crítica são etapas importantes para garantir maior confiabilidade ao conhecimento produzido.
+
+### 🚀 Próximos passos
+
+Este caderno representa apenas o início dos meus estudos em Power BI.
+
+Como próximos passos, pretendo aprofundar meus conhecimentos em:
+
+- Criação de modelos de dados;
+- Power Query e transformação de dados;
+- DAX e criação de medidas;
+- Visualizações e construção de dashboards;
+- Análise de dados na prática;
+- Desenvolvimento de projetos para portfólio.
+
