@@ -98,3 +98,65 @@ As fontes foram selecionadas considerando:
 * **Relevância:** cada fonte aborda diretamente uma etapa ou conceito do tema estudado;
 * **Acessibilidade:** são materiais disponíveis online;
 * **Complementaridade:** juntas, as fontes permitem acompanhar o fluxo de trabalho do Power BI desde a obtenção dos dados até a criação de cálculos e relatórios.
+
+## 🤖 Metodologia e Uso do NotebookLM
+
+O **NotebookLM** foi utilizado como ferramenta de apoio à aprendizagem ativa durante a construção deste caderno temático.
+
+A metodologia adotada foi baseada em quatro etapas principais:
+
+### 1. Curadoria
+
+Foram selecionadas cinco fontes oficiais da Microsoft Learn, escolhidas de acordo com sua relevância para os fundamentos do Power BI.
+
+As fontes foram adicionadas ao NotebookLM para servirem como base para as consultas realizadas durante o estudo.
+
+### 2. Exploração
+
+Após adicionar as fontes, foram elaborados prompts para explorar os principais conceitos do Power BI.
+
+As perguntas foram direcionadas inicialmente para uma visão geral do tema e, posteriormente, divididas em conceitos específicos:
+
+* Power BI e seu objetivo;
+* Power BI Desktop;
+* Power Query;
+* Modelagem de dados;
+* Esquema em estrela;
+* DAX;
+* Medidas e colunas calculadas.
+
+### 3. Refinamento dos prompts
+
+Durante o processo, os prompts foram aprimorados para obter respostas mais específicas e adequadas ao objetivo de aprendizagem.
+
+Por exemplo, em vez de solicitar apenas uma explicação geral sobre o fluxo do Power BI, foi solicitado que a resposta fosse dividida em etapas e que cada etapa apresentasse a ferramenta ou conceito relacionado.
+
+Esse refinamento tornou as respostas mais estruturadas e facilitou a organização posterior do conhecimento.
+
+### 4. Análise crítica
+
+As respostas geradas pelo NotebookLM não foram consideradas automaticamente como verdadeiras.
+
+Durante a análise, foram observadas as referências apresentadas pela ferramenta e identificadas informações que precisavam de verificação antes de serem utilizadas no material final.
+
+Essa etapa foi importante para compreender que a Inteligência Artificial pode atuar como uma ferramenta de apoio à pesquisa e aprendizagem, mas a análise crítica e a validação das informações continuam sendo responsabilidade do estudante.
+
+### Fluxo utilizado
+
+```text
+Curadoria das fontes
+        ↓
+Adição das fontes ao NotebookLM
+        ↓
+Elaboração dos prompts
+        ↓
+Análise das respostas
+        ↓
+Refinamento das perguntas
+        ↓
+Verificação das informações
+        ↓
+Organização do conhecimento
+        ↓
+Construção do Miniguia de Estudo
+```
