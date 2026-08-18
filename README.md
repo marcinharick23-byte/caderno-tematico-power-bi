@@ -160,3 +160,96 @@ Organização do conhecimento
         ↓
 Construção do Miniguia de Estudo
 ```
+
+## 🧠 Engenharia de Prompts
+
+A elaboração dos prompts foi realizada de forma progressiva. Primeiro, busquei compreender os conceitos gerais do Power BI e, em seguida, aprofundei o estudo em componentes específicos da ferramenta.
+
+A estratégia foi utilizar perguntas abertas inicialmente e depois acrescentar critérios como público-alvo, nível de conhecimento, exemplos práticos, organização em etapas e indicação das fontes utilizadas.
+
+### Prompt 1 — Conceito e fluxo básico do Power BI
+
+> Estou começando meus estudos em Power BI. Com base exclusivamente nas fontes fornecidas, explique o que é Power BI, qual é seu objetivo principal e descreva o fluxo básico de trabalho desde a obtenção dos dados até a criação de um relatório. Explique de forma didática para uma pessoa iniciante e indique quais fontes sustentam cada parte da explicação.
+
+**Objetivo:** obter uma visão geral do Power BI e compreender o fluxo de trabalho de forma adequada para quem está começando.
+
+---
+
+### Prompt 2 — Power BI Desktop, Power Query, modelo de dados e DAX
+
+> Com base exclusivamente nas fontes fornecidas, explique a diferença entre Power BI Desktop, Power Query, modelo de dados e DAX. Apresente a função de cada componente no fluxo de trabalho e explique como eles se relacionam. Evite termos excessivamente técnicos ou explique-os quando forem necessários.
+
+**Objetivo:** diferenciar os principais componentes envolvidos no processo de análise e compreender como eles se relacionam.
+
+---
+
+### Prompt 3 — Power Query
+
+> Explique Power Query para alguém que nunca trabalhou com tratamento de dados. Apresente exemplos práticos de transformações que podem ser realizadas e explique por que a preparação dos dados é importante antes da criação dos relatórios.
+
+**Objetivo:** compreender a finalidade do Power Query e visualizar situações práticas de limpeza e transformação de dados.
+
+---
+
+### Prompt 4 — Esquema em estrela
+
+> Explique o conceito de esquema em estrela no Power BI. Diferencie tabela fato e tabela dimensão e utilize um exemplo simples de vendas para demonstrar como essas tabelas podem se relacionar.
+
+**Objetivo:** compreender os fundamentos da modelagem de dados utilizando um exemplo prático.
+
+---
+
+### Prompt 5 — DAX
+
+> Explique o conceito de DAX para um iniciante em Power BI. Diferencie medidas e colunas calculadas e apresente exemplos simples para demonstrar quando cada uma pode ser utilizada.
+
+**Objetivo:** compreender a finalidade do DAX e diferenciar os dois principais tipos de cálculos estudados.
+
+---
+
+### Prompt 6 — Refinamento do fluxo de trabalho
+
+Depois de estudar os conceitos separadamente, refinei a investigação para consolidar o conhecimento:
+
+> Estou começando meus estudos em Power BI. Com base exclusivamente nas fontes fornecidas, explique o fluxo de trabalho desde a obtenção dos dados até a criação de um relatório. Divida a explicação em etapas e, para cada etapa, indique qual ferramenta ou conceito está envolvido.
+
+**Objetivo:** reunir os conhecimentos estudados anteriormente em um único fluxo, relacionando cada etapa à ferramenta ou conceito correspondente.
+
+### 🔄 Estratégia de refinamento
+
+A evolução dos prompts seguiu uma lógica de aprofundamento:
+
+**Visão geral → Componentes → Preparação → Modelagem → Cálculos → Fluxo completo**
+
+Essa estratégia permitiu estudar o Power BI de maneira progressiva, começando pelos conceitos mais amplos e avançando para os elementos específicos do processo de análise de dados.
+
+---
+
+## 🩹 Cicatrizes e Troubleshooting
+
+Durante o uso do NotebookLM, algumas respostas precisaram ser analisadas com atenção antes de serem incorporadas ao material.
+
+### 1. Necessidade de especificar o nível de conhecimento
+
+Perguntas muito amplas poderiam gerar explicações mais técnicas. Por isso, os prompts passaram a indicar explicitamente que a explicação deveria ser direcionada a uma pessoa iniciante.
+
+**Aprendizado:** informar o público-alvo ajuda a obter respostas mais adequadas ao nível de conhecimento desejado.
+
+### 2. Necessidade de estruturar as respostas
+
+Também foi necessário solicitar formatos específicos, como divisão em etapas, exemplos práticos e indicação das fontes.
+
+**Aprendizado:** definir o formato esperado da resposta torna o resultado mais organizado e facilita a utilização posterior do conteúdo.
+
+### 3. Refinamento progressivo
+
+Em vez de tentar compreender todo o Power BI em uma única pergunta, os conceitos foram investigados separadamente e posteriormente reunidos em uma explicação sobre o fluxo completo.
+
+**Aprendizado:** dividir um assunto amplo em perguntas menores facilita a compreensão e permite aprofundar cada conceito.
+
+### 4. Verificação das informações
+
+As respostas do NotebookLM foram utilizadas como apoio ao estudo, mas não foram consideradas automaticamente como informação definitiva. As referências apresentadas foram observadas e informações relevantes foram confrontadas com as fontes selecionadas.
+
+**Aprendizado:** a utilização de IA no processo de aprendizagem exige análise crítica, verificação das fontes e responsabilidade sobre o conteúdo utilizado.
+
