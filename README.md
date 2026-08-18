@@ -513,3 +513,76 @@ O estudo também mostrou a importância de compreender a relação entre **Power
 | **Filtro**                           | Recurso que permite limitar os dados apresentados em uma visualização ou relatório.                                       |
 | **Segmentação de Dados (Slicer)**    | Controle visual que permite ao usuário selecionar valores para filtrar os dados de um relatório.                          |
 
+## ♻️ Prompts Reutilizáveis
+
+Os prompts abaixo foram elaborados a partir da experiência adquirida durante este estudo e podem ser reutilizados para revisar conceitos, aprofundar conhecimentos e praticar Power BI com o apoio da Inteligência Artificial.
+
+### 📌 1. Revisão de um conceito
+
+> Com base exclusivamente nas fontes fornecidas, explique o conceito de **[CONCEITO]** para uma pessoa iniciante em Power BI. Utilize linguagem simples, apresente um exemplo prático e indique quais fontes sustentam a explicação.
+
+**Exemplo:** substituir `[CONCEITO]` por `Power Query`, `DAX` ou `esquema em estrela`.
+
+---
+
+### 🔎 2. Comparação entre conceitos
+
+> Com base exclusivamente nas fontes fornecidas, compare **[CONCEITO 1]** e **[CONCEITO 2]**. Explique a função de cada um, em qual etapa do fluxo de trabalho são utilizados e apresente um exemplo simples mostrando a diferença entre eles.
+
+**Exemplo:** Power Query × DAX.
+
+---
+
+### 🧩 3. Exercício prático
+
+> Com base nos conceitos presentes nas fontes fornecidas, crie um cenário simples de vendas para uma empresa e proponha um exercício de modelagem no Power BI. Indique quais seriam as tabelas fato e dimensão, quais relacionamentos poderiam ser criados e quais informações poderiam ser analisadas.
+
+---
+
+### 🧠 4. Teste de conhecimento
+
+> Quero testar meus conhecimentos sobre Power BI. Faça 10 perguntas de dificuldade progressiva sobre Power BI Desktop, Power Query, modelagem de dados, esquema em estrela e DAX. Faça uma pergunta por vez, espere minha resposta e depois informe se minha resposta está correta, explicando o motivo.
+
+---
+
+### 📝 5. Revisão antes de uma avaliação
+
+> Com base exclusivamente nas fontes fornecidas, faça uma revisão dos principais conceitos de Power BI que uma pessoa iniciante deveria dominar. Organize a revisão por tópicos, destaque os conceitos que costumam ser confundidos e apresente exemplos simples.
+
+---
+
+### 🔄 6. Identificação de lacunas
+
+> Faça uma avaliação do meu conhecimento sobre Power BI. Comece perguntando o que eu sei sobre obtenção de dados, Power Query, modelagem, esquema em estrela e DAX. A partir das minhas respostas, identifique quais conceitos preciso revisar e sugira uma sequência de estudos.
+
+---
+
+### 💬 7. Explicação de um erro
+
+> Estou estudando Power BI e encontrei o seguinte problema: **[DESCREVA O PROBLEMA]**. Explique possíveis causas de forma didática, apresente uma sequência de verificação e, quando possível, indique qual conceito das fontes está relacionado ao problema.
+
+---
+
+### 🎯 8. Aplicação em um projeto
+
+> Estou construindo um relatório de vendas no Power BI. Com base nos conceitos estudados, sugira uma estrutura simples contendo tabelas fato e dimensão, relacionamentos, possíveis medidas DAX e visualizações que poderiam ajudar na análise. Explique a finalidade de cada elemento.
+
+---
+
+### 📚 Estratégia de utilização
+
+Os prompts podem ser adaptados conforme o objetivo do estudo:
+
+| Objetivo | Prompt recomendado |
+|---|---|
+| Aprender um conceito novo | Revisão de um conceito |
+| Entender diferenças | Comparação entre conceitos |
+| Praticar | Exercício prático |
+| Testar conhecimentos | Teste de conhecimento |
+| Preparar-se para uma avaliação | Revisão antes de uma avaliação |
+| Descobrir dificuldades | Identificação de lacunas |
+| Resolver problemas | Explicação de um erro |
+| Aplicar conhecimentos | Aplicação em um projeto |
+
+A principal aprendizagem obtida durante o projeto foi que um bom prompt não precisa apenas perguntar **"o que é?"**. É possível definir o nível de conhecimento, o contexto, o formato da resposta, solicitar exemplos e estabelecer quais fontes devem ser utilizadas.
+
