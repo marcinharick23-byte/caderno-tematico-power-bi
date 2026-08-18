@@ -253,3 +253,240 @@ As respostas do NotebookLM foram utilizadas como apoio ao estudo, mas não foram
 
 **Aprendizado:** a utilização de IA no processo de aprendizagem exige análise crítica, verificação das fontes e responsabilidade sobre o conteúdo utilizado.
 
+## 📚 Miniguia de Estudo — Fundamentos do Power BI
+
+### 1. O que é Power BI?
+
+O **Power BI** é uma plataforma de análise de negócios da Microsoft que permite conectar dados de diferentes fontes, preparar e modelar essas informações, criar visualizações interativas e compartilhar relatórios.
+
+Seu principal objetivo é transformar dados em informações que possam facilitar a análise e a tomada de decisões.
+
+O Power BI possui diferentes componentes, entre eles o **Power BI Desktop**, utilizado principalmente para criação de modelos e relatórios, e o **Power BI Service**, utilizado para publicação, compartilhamento e colaboração.
+
+---
+
+### 2. Power BI Desktop
+
+O **Power BI Desktop** é o ambiente de trabalho utilizado para desenvolver modelos de dados e relatórios.
+
+Dentro dele, é possível:
+
+* Conectar-se a diferentes fontes de dados;
+* Preparar e transformar os dados;
+* Criar relacionamentos entre tabelas;
+* Desenvolver cálculos;
+* Criar gráficos e outros elementos visuais;
+* Construir páginas de relatório;
+* Publicar o resultado no serviço do Power BI.
+
+De forma simples, podemos pensar no Power BI Desktop como o ambiente onde acontece a maior parte da construção do relatório.
+
+---
+
+### 3. Power Query
+
+O **Power Query** é utilizado para **conectar, preparar e transformar dados** antes que eles sejam utilizados nas análises.
+
+Os dados obtidos de uma fonte nem sempre estão organizados da maneira necessária. Por isso, podem ser necessárias transformações antes da criação dos relatórios.
+
+Alguns exemplos de transformações são:
+
+* Remover colunas desnecessárias;
+* Filtrar linhas;
+* Alterar tipos de dados;
+* Corrigir ou reorganizar informações;
+* Mesclar tabelas;
+* Acrescentar tabelas;
+* Transformar colunas em linhas utilizando o recurso de *Unpivot*.
+
+O processo de preparação é importante porque dados inconsistentes ou mal estruturados podem prejudicar os cálculos e as visualizações.
+
+Uma característica importante do Power Query é permitir que as etapas de transformação sejam registradas e reaplicadas quando os dados forem atualizados.
+
+---
+
+### 4. Modelo de Dados
+
+Depois da preparação, os dados precisam ser organizados para que o Power BI consiga utilizá-los nas análises.
+
+O **modelo de dados** é formado pelas tabelas utilizadas no relatório e pelos relacionamentos estabelecidos entre elas.
+
+Por exemplo, em um cenário de vendas, podemos ter:
+
+* Uma tabela de vendas;
+* Uma tabela de produtos;
+* Uma tabela de clientes;
+* Uma tabela de datas.
+
+Os relacionamentos permitem que informações dessas diferentes tabelas sejam utilizadas em conjunto.
+
+---
+
+### 5. Esquema em Estrela
+
+O **esquema em estrela (Star Schema)** é uma abordagem de modelagem muito utilizada no Power BI.
+
+Ele organiza o modelo principalmente em:
+
+* **Tabelas fato:** registram eventos ou transações;
+* **Tabelas dimensão:** fornecem informações utilizadas para descrever, filtrar e agrupar esses eventos.
+
+#### Exemplo de vendas
+
+Imagine uma empresa que deseja analisar suas vendas.
+
+A tabela fato **Vendas** pode conter:
+
+* ID do produto;
+* ID da data;
+* quantidade vendida;
+* valor da venda.
+
+As tabelas dimensão podem conter:
+
+**Dimensão Produto**
+
+* ID do produto;
+* nome;
+* categoria;
+* cor.
+
+**Dimensão Data**
+
+* data;
+* ano;
+* mês;
+* trimestre.
+
+O modelo pode ser representado de forma simplificada:
+
+```text
+              DIMENSÃO PRODUTO
+                     │
+                     │
+                     ▼
+               ┌───────────┐
+               │   VENDAS  │
+               │   (FATO)  │
+               └───────────┘
+                     ▲
+                     │
+                     │
+                DIMENSÃO DATA
+```
+
+A tabela fato fica no centro e as dimensões ficam relacionadas a ela, formando visualmente uma estrutura semelhante a uma estrela.
+
+Um relacionamento comum nesse cenário é **um-para-muitos (1:N)**: um produto pode aparecer em várias linhas da tabela de vendas.
+
+---
+
+### 6. DAX
+
+**DAX (Data Analysis Expressions)** é a linguagem de expressões utilizada para criar cálculos em modelos de dados do Power BI.
+
+Embora algumas fórmulas DAX possam parecer semelhantes às fórmulas do Excel, DAX trabalha com o modelo de dados e seus contextos de análise.
+
+Dois conceitos importantes para iniciantes são **medidas** e **colunas calculadas**.
+
+#### Medidas
+
+As medidas são cálculos que são avaliados de acordo com o contexto da análise.
+
+Por exemplo:
+
+```text
+Total de Vendas = SUM(Vendas[Valor])
+```
+
+A mesma medida pode apresentar resultados diferentes dependendo dos filtros aplicados ao relatório.
+
+Por exemplo, podemos analisar o total de vendas:
+
+* De toda a empresa;
+* De uma determinada região;
+* De um produto;
+* De um período específico.
+
+Por isso, medidas são especialmente úteis para cálculos e agregações que precisam responder dinamicamente aos filtros do relatório.
+
+#### Colunas calculadas
+
+As colunas calculadas são adicionadas a uma tabela e seus valores são calculados linha por linha.
+
+Um exemplo simples seria criar uma informação derivada a partir de outras colunas existentes.
+
+Elas podem ser úteis quando precisamos de um novo campo que possa ser utilizado para categorizar, filtrar ou analisar os dados.
+
+### Medidas x Colunas Calculadas
+
+| Característica | Medida                                  | Coluna Calculada                   |
+| -------------- | --------------------------------------- | ---------------------------------- |
+| Cálculo        | Avaliado conforme o contexto da análise | Calculado linha a linha            |
+| Resultado      | Dinâmico conforme filtros               | Armazenado no modelo               |
+| Uso comum      | Agregações e indicadores                | Novos campos, categorias e filtros |
+| Exemplo        | Total de Vendas                         | Ano + Trimestre                    |
+
+Uma forma simples de lembrar:
+
+> **Medida = responde à análise.**
+> **Coluna calculada = cria uma informação para cada linha.**
+
+---
+
+### 7. Fluxo de Trabalho do Power BI
+
+Os conceitos estudados podem ser organizados em um fluxo de trabalho:
+
+```text
+┌─────────────────────┐
+│  1. Obter os dados  │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│ 2. Preparar dados   │
+│    Power Query      │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│  3. Modelar dados   │
+│    Fatos/Dimensões  │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│  4. Criar cálculos  │
+│       DAX           │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│ 5. Criar relatório  │
+│   Visualizações     │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│  6. Analisar dados  │
+│ Filtros/Segmentação │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│ 7. Publicar e       │
+│    compartilhar     │
+└─────────────────────┘
+```
+
+Esse fluxo demonstra como diferentes recursos do Power BI trabalham em conjunto.
+
+O processo começa com a obtenção dos dados, passa pela preparação e organização, utiliza cálculos para gerar informações e termina com a apresentação e análise dos resultados.
+
+---
+
+### 💡 Principais aprendizados
+
+Ao estudar esses conceitos, foi possível compreender que criar um relatório no Power BI envolve muito mais do que escolher gráficos.
+
+Um relatório eficiente depende de uma sequência de etapas:
+
+**Dados bem preparados → modelo bem estruturado → cálculos adequados → visualizações úteis.**
+
+O estudo também mostrou a importância de compreender a relação entre **Power Query, modelagem e DAX**, pois cada recurso possui uma função diferente dentro do processo de análise.
+
