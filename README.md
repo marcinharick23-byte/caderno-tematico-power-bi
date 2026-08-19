@@ -586,6 +586,26 @@ Os prompts podem ser adaptados conforme o objetivo do estudo:
 
 A principal aprendizagem obtida durante o projeto foi que um bom prompt não precisa apenas perguntar **"o que é?"**. É possível definir o nível de conhecimento, o contexto, o formato da resposta, solicitar exemplos e estabelecer quais fontes devem ser utilizadas.
 
+## 🖼️ Evidências do Processo
+
+### Fontes utilizadas no NotebookLM
+
+O caderno temático foi desenvolvido a partir de cinco fontes selecionadas, utilizadas como base para as pesquisas, perguntas e organização do conhecimento.
+
+![Fontes utilizadas no NotebookLM](./images/notebooklm-fontes.png)
+
+### Engenharia de Prompts
+
+Durante o desenvolvimento do caderno, foram elaborados prompts com diferentes objetivos, buscando obter explicações didáticas, exemplos práticos e relações entre os principais conceitos de Power BI.
+
+![Consulta realizada no NotebookLM](./images/notebooklm-prompt.png)
+
+## 🔗 NotebookLM
+
+O caderno temático foi desenvolvido no NotebookLM, utilizando as fontes selecionadas e os prompts documentados neste repositório.
+
+👉 [Acessar o caderno temático no NotebookLM](https://notebook.google.com/notebook/bf085cac-d1e7-4b1b-b1c7-6a3c5906f5b1)
+
 ## 🎓 Conclusão e Aprendizados
 
 A construção deste caderno temático permitiu organizar os conhecimentos iniciais sobre Power BI de forma progressiva, partindo dos conceitos mais básicos até a compreensão do fluxo de trabalho completo.
