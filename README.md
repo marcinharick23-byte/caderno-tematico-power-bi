@@ -592,13 +592,11 @@ A principal aprendizagem obtida durante o projeto foi que um bom prompt não pre
 
 O caderno temático foi desenvolvido a partir de cinco fontes selecionadas, utilizadas como base para as pesquisas, perguntas e organização do conhecimento.
 
-![Fontes utilizadas no NotebookLM](./images/notebooklm-fontes.png)
 
 ### Engenharia de Prompts
 
 Durante o desenvolvimento do caderno, foram elaborados prompts com diferentes objetivos, buscando obter explicações didáticas, exemplos práticos e relações entre os principais conceitos de Power BI.
 
-![Consulta realizada no NotebookLM](./images/notebooklm-prompt.png)
 
 ## 🔗 NotebookLM
 
