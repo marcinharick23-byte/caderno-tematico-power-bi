@@ -630,13 +630,13 @@ O NotebookLM foi utilizado como ferramenta de apoio durante o desenvolvimento de
 
 As fontes selecionadas foram utilizadas como base para a construção dos conteúdos apresentados neste caderno.
 
-![Fontes utilizadas no NotebookLM](images/notebooklm-fontes.png)
+![Fontes utilizadas no NotebookLM](notebooklm-fontes.png)
 
 ### Prompt utilizado
 
 As perguntas e instruções foram elaboradas para orientar a pesquisa e aprofundar os principais conceitos relacionados ao Power BI.
 
-![Prompt utilizado no NotebookLM](images/notebooklm-prompt.png)
+![Prompt utilizado no NotebookLM](notebooklm-prompt.png)
 
 ### 🤖 Aprendizado sobre Inteligência Artificial
 
