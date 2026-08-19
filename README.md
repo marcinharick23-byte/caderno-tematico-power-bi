@@ -622,6 +622,22 @@ Entre os principais aprendizados estão:
 - **Medidas e colunas calculadas** possuem finalidades diferentes e devem ser utilizadas de acordo com a necessidade da análise;
 - A qualidade da preparação e da modelagem dos dados influencia diretamente a qualidade das análises e visualizações.
 
+## 🧠 Processo de aprendizagem com NotebookLM
+
+O NotebookLM foi utilizado como ferramenta de apoio durante o desenvolvimento deste caderno temático, auxiliando na pesquisa, organização e compreensão dos fundamentos do Power BI.
+
+### Fontes utilizadas
+
+As fontes selecionadas foram utilizadas como base para a construção dos conteúdos apresentados neste caderno.
+
+![Fontes utilizadas no NotebookLM](images/notebooklm-fontes.png)
+
+### Prompt utilizado
+
+As perguntas e instruções foram elaboradas para orientar a pesquisa e aprofundar os principais conceitos relacionados ao Power BI.
+
+![Prompt utilizado no NotebookLM](images/notebooklm-prompt.png)
+
 ### 🤖 Aprendizado sobre Inteligência Artificial
 
 Além dos conhecimentos técnicos sobre Power BI, este projeto também permitiu desenvolver uma forma mais consciente de utilizar a Inteligência Artificial durante os estudos.
